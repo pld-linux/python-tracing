@@ -10,7 +10,7 @@ Source0:	http://code.liw.fi/debian/pool/main/p/python-%{module}/%{name}_%{versio
 URL:		http://liw.fi/tracing
 BuildRequires:	python-Sphinx
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
