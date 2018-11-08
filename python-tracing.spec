@@ -1,12 +1,12 @@
 %define 	module	tracing
 Summary:	Python debug logging helper
 Name:		python-%{module}
-Version:	0.8
-Release:	2
+Version:	0.9
+Release:	1
 License:	GPL v3+
 Group:		Libraries/Python
-Source0:	http://code.liw.fi/debian/pool/main/p/python-%{module}/%{name}_%{version}.orig.tar.gz
-# Source0-md5:	9f449746b2ae19ca62bca5363ae0b432
+Source0:	http://code.liw.fi/debian/pool/main/p/python-%{module}/%{name}_%{version}.orig.tar.xz
+# Source0-md5:	2161ae40f27194848426e04e3abd6488
 URL:		http://liw.fi/tracing
 BuildRequires:	python-Sphinx
 BuildRequires:	rpm-pythonprov
